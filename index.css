@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 0.5px solid grey;
+    box-sizing: 5px 3px 5px 3px gray;
+    width: 25%;
+    height: 90%;
+    margin: 10% auto;
+    background-color: #fff;
+    border-radius: 25px;
+}
+img{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    border-radius: 25px;
+   position: relative;
+   left: 4%;
+    margin-top: 5%;
+}
+h3{
+    text-align: center;
+    color: #000;
+}
+p{
+    color: gray;
+    font-family: 500;
+    text-align: center;
+}
+@media screen and (orientation:portrait) {
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (orientation:landscape) {
+    .container{
+        width: 50%;
+    }
+}
